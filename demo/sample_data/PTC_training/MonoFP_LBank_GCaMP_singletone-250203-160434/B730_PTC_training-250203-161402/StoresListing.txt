@@ -1,0 +1,89 @@
+Experiment: MonoFP_LBank_GCaMP_singletone
+Subject: B730_PTC_training
+User: User
+Date: 02/03/2025
+Time: 4:14:07pm
+
+Object ID : RZ10x(1) - RZn Processor
+ Rate     : 6103.5 Hz
+ Store ID : PrtA
+  Source  : Strobe input
+  Invert  : No
+  Offset  : No
+  Count   : No
+ Store ID : PrtB
+  Source  : Strobe input
+  Invert  : No
+  Offset  : No
+  Count   : No
+ Store ID : Note
+ Store ID : Tick
+
+Object ID : Cam(1) - Camera Device
+ Store ID : Cam1
+  Source  : Value change
+
+Object ID : END - Epoch Event Storage
+ Store ID : End_
+  Source  : Strobe input
+  Invert  : No
+  Offset  : Yes
+  Count   : No
+
+Object ID : SHCK - Epoch Event Storage
+ Store ID : Shck
+  Source  : Strobe input
+  Invert  : No
+  Offset  : Yes
+  Count   : No
+
+Object ID : CS_ - Epoch Event Storage
+ Store ID : CS__
+  Source  : Strobe input
+  Invert  : No
+  Offset  : Yes
+  Count   : No
+
+Object ID : FibPho1 - Fiber Photometry
+ Store ID : 405A
+  Format  : Float-32
+  Scale   : Unity
+  Rate    : 1017.3 Hz
+ Store ID : 465A
+  Format  : Float-32
+  Scale   : Unity
+  Rate    : 1017.3 Hz
+ Store ID : Fi1i
+  Mode    : Single scalar
+  Format  : Float-32
+  Scale   : Unity
+  Pre Cap : 0.00 ms
+ Store ID : Fi1r
+  Format  : Float-32
+  Scale   : Unity
+  Rate    : 6103.5 Hz
+
+Object ID : START - Epoch Event Storage
+ Store ID : Strt
+  Source  : Strobe input
+  Invert  : No
+  Offset  : Yes
+  Count   : No
+
+
+Flat Listing:
+StoreID  Gizmo/Hal
+405A     FibPho1
+465A     FibPho1
+Cam1     Cam(1)
+CS__     CS_
+End_     END
+Fi1i     FibPho1
+Fi1r     FibPho1
+Note     RZn(1)
+PrtA     RZn(1)
+PrtB     RZn(1)
+Shck     SHCK
+Strt     START
+Tick     RZn(1)
+
